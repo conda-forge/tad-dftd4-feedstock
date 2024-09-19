@@ -24,7 +24,7 @@ requirements:
     - numpy <2
     - tad-mctc
     - tad-multicharge
-    - pytorch >=1.11,<2.4
+    - pytorch >=1.11,<2.5
 
 test:
   imports:
