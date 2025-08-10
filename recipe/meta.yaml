@@ -24,8 +24,8 @@ requirements:
     - python >={{ python_min }}
     - numpy <2
     - pytorch >=1.11,<3
-    - tad-mctc == 0.5.3
-    - tad-multicharge == 0.3.3
+    - tad-mctc ==0.5.3
+    - tad-multicharge ==0.3.3
     - tomli
     - typing-extensions
 
