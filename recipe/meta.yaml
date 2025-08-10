@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -24,8 +24,8 @@ requirements:
     - python >={{ python_min }}
     - numpy <2
     - pytorch >=1.11,<3
-    - tad-mctc
-    - tad-multicharge
+    - tad-mctc ==0.5.3
+    - tad-multicharge ==0.3.3
     - tomli
     - typing-extensions
 
