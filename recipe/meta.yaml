@@ -23,7 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy <2
-    - pydantic>=2.0.0
+    - pydantic >=2.0.0
     - pytorch >=1.11,<3
     - tad-mctc ==0.7.0
     - tad-multicharge ==0.5.0
